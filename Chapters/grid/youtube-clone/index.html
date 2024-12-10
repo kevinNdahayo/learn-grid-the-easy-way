@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <title>Youtube Clone</title>
+  </head>
+  <body>
+    <main class="youtube-grid">
+      <!-- Youtube Navbar -->
+      <section class="youtube-navbar">
+        <!-- Youtube Menu -->
+        <div class="youtube-navbar-menu">
+          <!-- Menu Icon -->
+          <img
+            src="./images/navigation/Navigations_yt-button_icon.svg"
+            alt="menu"
+          />
+          <!-- Youtube Logo -->
+          <img
+            src="./images/navigation/Navigations_yt-button_Logo.svg"
+            alt="yt-logo"
+          />
+        </div>
+
+        <!-- Search Bar -->
+        <div class="youtube-search-bar">
+          <!-- Search Text & Icon  -->
+          <div class="youtube-search-text-icon">
+            <input
+              type="text"
+              name="youtube-search"
+              id="youtube-search"
+              placeholder="Search"
+            />
+            <!-- Search Icon -->
+            <div id="youtube-search-btn">
+              <img
+                src="./images/navigation/search.svg"
+                id="youtube-search-icon"
+                alt="search"
+              />
+            </div>
+          </div>
+
+          <!-- Search By Text -->
+          <div class="youtube-search-by-text">
+            <img
+              src="./images/navigation/mic.svg"
+              id="youtube-search-by-text-mic"
+              alt="mic"
+            />
+          </div>
+        </div>
+
+        <!-- Left-hand youtube icons -->
+        <div class="youtube-left-hand-icons">
+          <img
+            src="./images/navigation/create.svg"
+            id="yt-lefthand-icons"
+            alt="Create"
+          />
+          <img
+            src="./images/navigation/apps.svg"
+            id="yt-lefthand-icons"
+            alt="Apps"
+          />
+          <img
+            src="./images/navigation/notifications.svg"
+            id="yt-lefthand-icons"
+            alt="Notifications"
+          />
+          <img
+            src="./images/navigation/User-Avatar.jpg"
+            id="user-avatar"
+            alt="Notifications"
+          />
+        </div>
+      </section>
+
+      <!-- Youtube Sidebar -->
+      <section class="youtube-sidebar">
+        <div class="yt-sidebar-category yt-sidebar-first-category">
+          <div class="home yt-sidebar-category-elements">
+            <img
+              src="./images/sidebar/First-category/Sidebar_Menu_Icon.svg"
+              alt="Home"
+            />
+            <span>Home</span>
+          </div>
+          <div class="explore yt-sidebar-category-elements">
+            <img
+              src="./images/sidebar/First-category/explore.svg"
+              alt="explore"
+            />
+            <span>Explore</span>
+          </div>
+          <div class="subscriptions yt-sidebar-category-elements">
+            <img
+              src="./images/sidebar/First-category/subscriptions.svg"
+              alt="subscriptions"
+            />
+            <span>Subscriptions</span>
+          </div>
+        </div>
+
+        <div class="yt-sidebar-category yt-sidebar-second-category">
+          <div class="library yt-sidebar-category-elements">
+            <img
+              src="./images/sidebar/Second-category/library.svg"
+              alt="explore"
+            />
+            <span>Library</span>
+          </div>
+          <div class="history yt-sidebar-category-elements">
+            <img
+              src="./images/sidebar/Second-category/history.svg"
+              alt="explore"
+            />
+            <span>History</span>
+          </div>
+          <div class="videos yt-sidebar-category-elements">
+            <img
+              src="./images/sidebar/Second-category/videos.svg"
+              alt="explore"
+            />
+            <span>Videos</span>
+          </div>
+          <div class="watch-later yt-sidebar-category-elements">
+            <img
+              src="./images/sidebar/Second-category/watch-later.svg"
+              alt="explore"
+            />
+            <span>Watch Later</span>
+          </div>
+          <div class="liked-videos yt-sidebar-category-elements">
+            <img
+              src="./images/sidebar/Second-category/liked.svg"
+              alt="explore"
+            />
+            <span>Liked Videos</span>
+          </div>
+          <div class="arrow-bottom yt-sidebar-category-elements">
+            <img
+              src="./images/sidebar/Second-category/arrowBottom.svg"
+              alt="explore"
+            />
+            <span>Show More</span>
+          </div>
+        </div>
+
+        <div class="yt-sidebar-category yt-sidebar-third-category">
+          <div class="yt-title">SUBSCRIPTIONS</div>
+          <div class="james yt-sidebar-category-elements">
+            <img src="./images/sidebar/Third-category/james.svg" alt="james" />
+            <span>James Gouse</span>
+          </div>
+          <div class="alan yt-sidebar-category-elements">
+            <img src="./images/sidebar/Third-category/alan.svg" alt="alan" />
+            <span>Alan Couper</span>
+          </div>
+          <div class="marcus yt-sidebar-category-elements">
+            <img
+              src="./images/sidebar/Third-category/marcus.svg"
+              alt="marcus"
+            />
+            <span>Marcus Levin</span>
+          </div>
+          <div class="alexis yt-sidebar-category-elements">
+            <img
+              src="./images/sidebar/Third-category/alexis.svg"
+              alt="alexis"
+            />
+            <span>Alexis Sears</span>
+          </div>
+          <div class="jesica yt-sidebar-category-elements">
+            <img
+              src="./images/sidebar/Third-category/jesica.svg"
+              alt="jesica"
+            />
+            <span>Jesica Lambert</span>
+          </div>
+          <div class="anna yt-sidebar-category-elements">
+            <img src="./images/sidebar/Third-category/ana.svg" alt="anna" />
+            <span>Anna White</span>
+          </div>
+          <div class="skylar yt-sidebar-category-elements">
+            <img
+              src="./images/sidebar/Third-category/skylar.svg"
+              alt="skylar"
+            />
+            <span>Skylar Dias</span>
+          </div>
+          <div class="arrow-bottom yt-sidebar-category-elements">
+            <img
+              src="./images/sidebar/Third-category/arrowBottom.svg"
+              alt="show-more"
+            />
+            <span>Show 13 more</span>
+          </div>
+        </div>
+
+        <div class="yt-sidebar-category yt-sidebar-fourth-category">
+          <div class="yt-title">MORE FROM YOUTUBE</div>
+          <div class="yt-premium yt-sidebar-category-elements">
+            <img
+              src="./images/sidebar/Fourth-category/yt-premium.svg"
+              alt="youtube-premium"
+            />
+            <span>Youtube Premium</span>
+          </div>
+          <div class="yt-gaming yt-sidebar-category-elements">
+            <img
+              src="./images/sidebar/Fourth-category/gaming.svg"
+              alt="gaming"
+            />
+            <span>Gaming</span>
+          </div>
+          <div class="yt-live yt-sidebar-category-elements">
+            <img src="./images/sidebar/Fourth-category/live.svg" alt="live" />
+            <span>Live</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Youtube Semi-Navigation -->
+      <section class="youtube-seminavigation">
+        <div id="yt-breadcumbs-All">All</div>
+        <div id="yt-breadcumbs-Item">Item</div>
+        <div id="yt-breadcumbs-Item">Item</div>
+        <div id="yt-breadcumbs-Item">Item</div>
+        <div id="yt-breadcumbs-Item">Item</div>
+        <div id="yt-breadcumbs-Item">Item</div>
+        <div id="yt-breadcumbs-Item">Item</div>
+        <div id="yt-breadcumbs-Item">Item</div>
+        <div id="yt-breadcumbs-Item">Item</div>
+        <div id="yt-breadcumbs-Item">Item</div>
+        <div id="yt-breadcumbs-Item">Item</div>
+        <div id="yt-breadcumbs-Item">Item</div>
+        <div id="yt-breadcumbs-Item">Item</div>
+        <div id="yt-breadcumbs-Item">Item</div>
+        <div id="yt-breadcumbs-Item">Item</div>
+        <div id="yt-breadcumbs-Item">Item</div>
+        <div id="yt-breadcumbs-Item">Item</div>
+        <div id="yt-breadcumbs-Item">Item</div>
+      </section>
+
+      <!-- Youtube Main Content -->
+      <section class="youtube-content">
+        <!-- Youtube -->
+        <div class="yt-content-grid yt-content-card-youtube">
+          <div class="yt-content-card-img">
+            <img src="./images/content/yt-image.svg" alt="youtube-icon" />
+            <span>23:45</span>
+          </div>
+          <div class="yt-content-card-content">
+            <div class="yt-content-card-avatar">
+              <img
+                src="./images/sidebar/Third-category/james.svg"
+                alt="James"
+              />
+            </div>
+            <div class="yt-content-card-paragraph">
+              <div class="yt-content-card-title">
+                Lorem ipsum dolor sit amet, consecte
+                adipiscing elit.
+              </div>
+              <div class="yt-content-card-userInfo">
+                <span>James Gouse</span>
+                <div class="yt-content-card-metrics">
+                  <span>15K Views</span>
+                  <span>1 week ago</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Instagram -->
+        <div class="yt-content-grid yt-content-card-instagram">
+          <div class="yt-content-card-img">
+            <img src="./images/content/yt-instagram.svg" alt="Instagram-icon" />
+            <span>23:45</span>
+          </div>
+          <div class="yt-content-card-content">
+            <div class="yt-content-card-avatar">
+              <img src="./images/sidebar/Third-category/alan.svg" alt="Alan" />
+            </div>
+            <div class="yt-content-card-paragraph">
+              <div class="yt-content-card-title">
+                Lorem ipsum dolor sit amet, consecte adipiscing elit.
+              </div>
+              <div class="yt-content-card-userInfo">
+                <span>Alan Couper</span>
+                <div class="yt-content-card-metrics">
+                  <span>15K Views</span>
+                  <span>1 week ago</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- TikTok -->
+        <div class="yt-content-grid yt-content-card-tiktok">
+          <div class="yt-content-card-img">
+            <img src="./images/content/yt-tiktok.svg" alt="TikTok-icon" />
+            <span>23:45</span>
+          </div>
+          <div class="yt-content-card-content">
+            <div class="yt-content-card-avatar">
+              <img
+                src="./images/sidebar/Third-category/marcus.svg"
+                alt="Alan"
+              />
+            </div>
+            <div class="yt-content-card-paragraph">
+              <div class="yt-content-card-title">
+                Lorem ipsum dolor sit amet, consecte adipiscing elit.
+              </div>
+              <div class="yt-content-card-userInfo">
+                <span>Marcus Levin</span>
+                <div class="yt-content-card-metrics">
+                  <span>15K Views</span>
+                  <span>1 week ago</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Netflix -->
+        <div class="yt-content-grid yt-content-card-netflix">
+          <div class="yt-content-card-img">
+            <img src="./images/content/yt-netflix.svg" alt="Netflix-icon" />
+            <span>23:45</span>
+          </div>
+          <div class="yt-content-card-content">
+            <div class="yt-content-card-avatar">
+              <img
+                src="./images/sidebar/Third-category/alexis.svg"
+                alt="Alan"
+              />
+            </div>
+            <div class="yt-content-card-paragraph">
+              <div class="yt-content-card-title">
+                Lorem ipsum dolor sit amet, consecte adipiscing elit.
+              </div>
+              <div class="yt-content-card-userInfo">
+                <span>Alexis Sears</span>
+                <div class="yt-content-card-metrics">
+                  <span>15K Views</span>
+                  <span>1 week ago</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Twitter -->
+        <div class="yt-content-grid yt-content-card-twitter">
+          <div class="yt-content-card-img">
+            <img src="./images/content/yt-twitter.svg" alt="Twitter-icon" />
+            <span>23:45</span>
+          </div>
+          <div class="yt-content-card-content">
+            <div class="yt-content-card-avatar">
+              <img
+                src="./images/sidebar/Third-category/jesica.svg"
+                alt="jesica"
+              />
+            </div>
+            <div class="yt-content-card-paragraph">
+              <div class="yt-content-card-title">
+                Lorem ipsum dolor sit amet, consecte adipiscing elit.
+              </div>
+              <div class="yt-content-card-userInfo">
+                <span>Jesica Lambert</span>
+                <div class="yt-content-card-metrics">
+                  <span>15K Views</span>
+                  <span>1 week ago</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Spotify -->
+        <div class="yt-content-grid yt-content-card-spotify">
+          <div class="yt-content-card-img">
+            <img src="./images/content/yt-spotify.svg" alt="Spotify-icon" />
+            <span>23:45</span>
+          </div>
+          <div class="yt-content-card-content">
+            <div class="yt-content-card-avatar">
+              <img src="./images/sidebar/Third-category/ana.svg" alt="Anna" />
+            </div>
+            <div class="yt-content-card-paragraph">
+              <div class="yt-content-card-title">
+                Lorem ipsum dolor sit amet, consecte adipiscing elit.
+              </div>
+              <div class="yt-content-card-userInfo">
+                <span>Anna White</span>
+                <div class="yt-content-card-metrics">
+                  <span>15K Views</span>
+                  <span>1 week ago</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Discord -->
+        <div class="yt-content-grid yt-content-card-discord">
+          <div class="yt-content-card-img">
+            <img src="./images/content/yt-discord.svg" alt="Discord-icon" />
+            <span>23:45</span>
+          </div>
+          <div class="yt-content-card-content">
+            <div class="yt-content-card-avatar">
+              <img
+                src="./images/sidebar/Third-category/skylar.svg"
+                alt="Skylar"
+              />
+            </div>
+            <div class="yt-content-card-paragraph">
+              <div class="yt-content-card-title">
+                Lorem ipsum dolor sit amet, consecte adipiscing elit.
+              </div>
+              <div class="yt-content-card-userInfo">
+                <span>Skylar Dias</span>
+                <div class="yt-content-card-metrics">
+                  <span>15K Views</span>
+                  <span>1 week ago</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tesla -->
+        <div class="yt-content-grid yt-content-card-netflix">
+          <div class="yt-content-card-img">
+            <img src="./images/content/yt-tesla.svg" alt="Tesla-icon" />
+            <span>23:45</span>
+          </div>
+          <div class="yt-content-card-content">
+            <div class="yt-content-card-avatar">
+              <img
+                src="./images/sidebar/Third-category/james.svg"
+                alt="james"
+              />
+            </div>
+            <div class="yt-content-card-paragraph">
+              <div class="yt-content-card-title">
+                Lorem ipsum dolor sit amet, consecte adipiscing elit.
+              </div>
+              <div class="yt-content-card-userInfo">
+                <span>James Gouse</span>
+                <div class="yt-content-card-metrics">
+                  <span>15K Views</span>
+                  <span>1 week ago</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Youtube -->
+        <div class="yt-content-grid yt-content-card-youtube">
+          <div class="yt-content-card-img">
+            <img src="./images/content/yt-image.svg" alt="youtube-icon" />
+            <span>23:45</span>
+          </div>
+          <div class="yt-content-card-content">
+            <div class="yt-content-card-avatar">
+              <img
+                src="./images/sidebar/Third-category/james.svg"
+                alt="James"
+              />
+            </div>
+            <div class="yt-content-card-paragraph">
+              <div class="yt-content-card-title">
+                Lorem ipsum dolor sit amet, consecte adipiscing elit.
+              </div>
+              <div class="yt-content-card-userInfo">
+                <span>James Gouse</span>
+                <div class="yt-content-card-metrics">
+                  <span>15K Views</span>
+                  <span>1 week ago</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Instagram -->
+        <div class="yt-content-grid yt-content-card-instagram">
+          <div class="yt-content-card-img">
+            <img src="./images/content/yt-instagram.svg" alt="Instagram-icon" />
+            <span>23:45</span>
+          </div>
+          <div class="yt-content-card-content">
+            <div class="yt-content-card-avatar">
+              <img src="./images/sidebar/Third-category/alan.svg" alt="Alan" />
+            </div>
+            <div class="yt-content-card-paragraph">
+              <div class="yt-content-card-title">
+                Lorem ipsum dolor sit amet, consecte adipiscing elit.
+              </div>
+              <div class="yt-content-card-userInfo">
+                <span>Alan Couper</span>
+                <div class="yt-content-card-metrics">
+                  <span>15K Views</span>
+                  <span>1 week ago</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- TikTok -->
+        <div class="yt-content-grid yt-content-card-tiktok">
+          <div class="yt-content-card-img">
+            <img src="./images/content/yt-tiktok.svg" alt="TikTok-icon" />
+            <span>23:45</span>
+          </div>
+          <div class="yt-content-card-content">
+            <div class="yt-content-card-avatar">
+              <img
+                src="./images/sidebar/Third-category/marcus.svg"
+                alt="Alan"
+              />
+            </div>
+            <div class="yt-content-card-paragraph">
+              <div class="yt-content-card-title">
+                Lorem ipsum dolor sit amet, consecte adipiscing elit.
+              </div>
+              <div class="yt-content-card-userInfo">
+                <span>Marcus Levin</span>
+                <div class="yt-content-card-metrics">
+                  <span>15K Views</span>
+                  <span>1 week ago</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Netflix -->
+        <div class="yt-content-grid yt-content-card-netflix">
+          <div class="yt-content-card-img">
+            <img src="./images/content/yt-netflix.svg" alt="Netflix-icon" />
+            <span>23:45</span>
+          </div>
+          <div class="yt-content-card-content">
+            <div class="yt-content-card-avatar">
+              <img
+                src="./images/sidebar/Third-category/alexis.svg"
+                alt="Alan"
+              />
+            </div>
+            <div class="yt-content-card-paragraph">
+              <div class="yt-content-card-title">
+                Lorem ipsum dolor sit amet, consecte adipiscing elit.
+              </div>
+              <div class="yt-content-card-userInfo">
+                <span>Alexis Sears</span>
+                <div class="yt-content-card-metrics">
+                  <span>15K Views</span>
+                  <span>1 week ago</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Twitter -->
+        <div class="yt-content-grid yt-content-card-twitter">
+          <div class="yt-content-card-img">
+            <img src="./images/content/yt-twitter.svg" alt="Twitter-icon" />
+            <span>23:45</span>
+          </div>
+          <div class="yt-content-card-content">
+            <div class="yt-content-card-avatar">
+              <img
+                src="./images/sidebar/Third-category/jesica.svg"
+                alt="jesica"
+              />
+            </div>
+            <div class="yt-content-card-paragraph">
+              <div class="yt-content-card-title">
+                Lorem ipsum dolor sit amet, consecte adipiscing elit.
+              </div>
+              <div class="yt-content-card-userInfo">
+                <span>Jesica Lambert</span>
+                <div class="yt-content-card-metrics">
+                  <span>15K Views</span>
+                  <span>1 week ago</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Spotify -->
+        <div class="yt-content-grid yt-content-card-spotify">
+          <div class="yt-content-card-img">
+            <img src="./images/content/yt-spotify.svg" alt="Spotify-icon" />
+            <span>23:45</span>
+          </div>
+          <div class="yt-content-card-content">
+            <div class="yt-content-card-avatar">
+              <img src="./images/sidebar/Third-category/ana.svg" alt="Anna" />
+            </div>
+            <div class="yt-content-card-paragraph">
+              <div class="yt-content-card-title">
+                Lorem ipsum dolor sit amet, consecte adipiscing elit.
+              </div>
+              <div class="yt-content-card-userInfo">
+                <span>Anna White</span>
+                <div class="yt-content-card-metrics">
+                  <span>15K Views</span>
+                  <span>1 week ago</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Discord -->
+        <div class="yt-content-grid yt-content-card-discord">
+          <div class="yt-content-card-img">
+            <img src="./images/content/yt-discord.svg" alt="Discord-icon" />
+            <span>23:45</span>
+          </div>
+          <div class="yt-content-card-content">
+            <div class="yt-content-card-avatar">
+              <img
+                src="./images/sidebar/Third-category/skylar.svg"
+                alt="Skylar"
+              />
+            </div>
+            <div class="yt-content-card-paragraph">
+              <div class="yt-content-card-title">
+                Lorem ipsum dolor sit amet, consecte adipiscing elit.
+              </div>
+              <div class="yt-content-card-userInfo">
+                <span>Skylar Dias</span>
+                <div class="yt-content-card-metrics">
+                  <span>15K Views</span>
+                  <span>1 week ago</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tesla -->
+        <div class="yt-content-grid yt-content-card-netflix">
+          <div class="yt-content-card-img">
+            <img src="./images/content/yt-tesla.svg" alt="Tesla-icon" />
+            <span>23:45</span>
+          </div>
+          <div class="yt-content-card-content">
+            <div class="yt-content-card-avatar">
+              <img
+                src="./images/sidebar/Third-category/james.svg"
+                alt="james"
+              />
+            </div>
+            <div class="yt-content-card-paragraph">
+              <div class="yt-content-card-title">
+                Lorem ipsum dolor sit amet, consecte adipiscing elit.
+              </div>
+              <div class="yt-content-card-userInfo">
+                <span>James Gouse</span>
+                <div class="yt-content-card-metrics">
+                  <span>15K Views</span>
+                  <span>1 week ago</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
